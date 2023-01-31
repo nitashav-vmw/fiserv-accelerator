@@ -26,7 +26,7 @@ accelerator:
 engine:
   merge:
   - include: [ "**/*" ]
-    exclude: [ "accelerator-def/**","config/*.yaml", "Tiltfile", "README.md", "grype.yaml", "catalog/*.yaml", ".github/workflows/**" ]
+    exclude: [ "accelerator-def/**","config/*.yaml", "Tiltfile", "README.md", "grype.yaml", "catalog/*.yaml", ".github/workflows/**", ".vscode-template/**" ]
   - include: [ "Tiltfile" ]
     chain:
     - type: ReplaceText
@@ -66,10 +66,13 @@ engine:
       - text: tanzu-java-web-app
         with: "#artifactId"
 
-  - include: [ ".vscode/settings.json" ]
+  - include: [ ".vscode-template/settings.json" ]
     chain:
     - type: ReplaceText
       substitutions:
       - text: new-namespace
         with: "#namespace"
-    
+    - type: RewritePath
+      regex: .vscode-template/(.*)
+      rewriteTo: "'.vscode/' + #g1"
+      matchOrFail: true

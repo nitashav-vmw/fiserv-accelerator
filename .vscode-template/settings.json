@@ -1,0 +1,5 @@
+{
+  "tanzu-app-accelerator.tapGuiUrl": "https://tap-gui.tap.nvcodes.net",
+  "tanzu.namespace": "new-namespace",
+  "tanzu.sourceImage": "nitashav/tap-local"
+}
