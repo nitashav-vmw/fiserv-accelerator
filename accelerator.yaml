@@ -15,6 +15,10 @@ accelerator:
     label: Prefix for the container image repository
     defaultValue: dev.local
     required: true
+  - name: namespace
+    inputType: text
+    label: Namespace for your application
+    required: true
 
   imports:
   - name: tap-workload
@@ -52,6 +56,9 @@ engine:
       substitutions:
       - text: tanzu-java-web-app
         with: "#artifactId"
+      - text: new-namespace
+        with: "#namespace"
+
   - include: [ "catalog/*.yaml" ]
     chain:
     - type: ReplaceText
@@ -59,4 +66,10 @@ engine:
       - text: tanzu-java-web-app
         with: "#artifactId"
 
-  
+  - include: [ ".vscode/settings.json" ]
+    chain:
+    - type: ReplaceText
+      substitutions:
+      - text: new-namespace
+        with: "#namespace"
+    
