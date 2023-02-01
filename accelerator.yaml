@@ -19,6 +19,18 @@ accelerator:
     inputType: text
     label: Namespace for your application
     required: true
+  - name: gitRepository
+    inputType: text
+    label: Git Repository for the target project
+    description: The Git repository of the project where you will add the generated files
+    required: true
+
+  - name: gitBranch
+    inputType: text
+    label: Git Branch for the target project
+    defaultValue: main
+    description: The Git branch of the project where you will add the generated files
+    required: true
 
   imports:
   - name: tap-workload
