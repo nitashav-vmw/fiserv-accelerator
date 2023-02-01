@@ -54,7 +54,7 @@ engine:
     chain:
     - type: ReplaceText
       substitutions:
-      - text: tanzu-java-web-app
+      - text: fiserv-accelerator
         with: "#artifactId"
       - text: new-namespace
         with: "#namespace"
