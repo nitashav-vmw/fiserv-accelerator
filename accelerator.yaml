@@ -23,6 +23,8 @@ accelerator:
   imports:
   - name: tap-workload
   - name: tap-initialize
+    expose:
+    - name: "includeHasTests"
 
 engine:
   merge:
