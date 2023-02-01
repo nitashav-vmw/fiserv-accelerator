@@ -58,6 +58,10 @@ engine:
         with: "#artifactId"
       - text: new-namespace
         with: "#namespace"
+      - text: gitRepository
+        with: "#gitRepository"
+      - text: gitBranch
+        with: "#gitBranch"
 
   - include: [ "catalog/*.yaml" ]
     chain:

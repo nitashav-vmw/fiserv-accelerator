@@ -5,3 +5,10 @@ Click [here](https://github.com/cdelashmutt-pivotal/gbs-gitops/new/main?filename
 
 ## Getting access to environment
 Click [here](https://fiservesf.tmc.cloud.vmware.com/clusters) to download your kube.config file for enabling access to the development environment.
+
+## Register your app with the TAP Catalog
+Copy the following URL
+```
+gitRepository/blob/gitBranch/catalog/catalog-info.yaml
+```
+and paste the URL into the page at https://tap-gui.tap.nvcodes.net/catalog-import
