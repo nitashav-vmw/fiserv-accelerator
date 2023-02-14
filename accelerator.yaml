@@ -1,7 +1,7 @@
 accelerator:
-  displayName: Fiserv Cloud Accelerator
+  displayName: HCA Cloud Accelerator
   description: This is a custom fiserv accelerator to make the cloud move easy.
-  iconUrl: https://dwglogo.com/wp-content/uploads/2017/03/Fiserv-logo-01-1024x705.png
+  iconUrl: https://companieslogo.com/img/orig/HCA-122ba174.png?t=1648283781
   tags:
   - java
   - spring
