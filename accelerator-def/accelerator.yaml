@@ -2,10 +2,10 @@
 apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
 kind: Accelerator
 metadata:
-  name: fiserv-cloud-accelerator
+  name: hca-cloud-accelerator
   namespace: accelerator-system
 spec:
   git:
     url: https://github.com/nitashav-vmw/fiserv-accelerator.git
     ref:
-      branch: master
+      branch: hca
