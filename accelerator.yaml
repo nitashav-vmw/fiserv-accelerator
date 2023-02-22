@@ -1,7 +1,7 @@
 accelerator:
   displayName: HCA Cloud Accelerator
-  description: This is a custom fiserv accelerator to make the cloud move easy.
-  iconUrl: https://companieslogo.com/img/orig/HCA-122ba174.png?t=1648283781
+  description: This is a custom accelerator to make the cloud move easy.
+  iconUrl: https://freepngimg.com/png/154730-home-depot-logo-download-hq/icon
   tags:
   - java
   - spring
