@@ -1,7 +1,7 @@
 accelerator:
   displayName: THD Cloud Accelerator
   description: This is a custom accelerator to make the cloud move easy.
-  iconUrl: https://freepngimg.com/png/154730-home-depot-logo-download-hq/icon
+  iconUrl: https://freepngimg.com/download/logo/154730-home-depot-logo-download-hq.png
   tags:
   - java
   - spring
