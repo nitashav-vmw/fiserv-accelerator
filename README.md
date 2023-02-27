@@ -9,4 +9,4 @@ First, make sure you have downloaded the TMC CLI from https://fiservesf.tmc.clou
 Next, Click [here](https://fiservesf.tmc.cloud.vmware.com/clusters) to access your clusters in TMC.  Click on the name of your cluster, and select the "Actions" -> "Access this cluster" function to download a kubeconfig file for enabling access to the development environment.  Follow the instructions on the page to move your kubeconfig to `%USERPROFILE%\.kube\config` for Windows, or `~/.kube/config` for WSL and Linux.
 
 ## Register your app with the TAP Catalog
-Copy the URL to your [catalog/catalog-info.yaml](catalog/catalog-info.yaml), and paste the URL into the [TAP GUI Catalog Import Page](/catalog-import)
+Copy the URL to your [catalog/catalog-info.yaml](catalog/catalog-info.yaml), and paste the URL into the [TAP GUI Catalog Import Page](https://tap-gui.central.azure.grogscave.net/catalog-import)
